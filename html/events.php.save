@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <?php include('header.php'); ?>
+    <title>Events &gt; AUCS</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">AUCS <span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li class="active"><a href="/events">Events</a></li>
+            <li><a href="/contact_us">Contact us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="main container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1><span class="glyphicon glyphicon-chevron-right"></span> Events</h1>
+          <p>We meet every week on Wednesday at 6pm in Room 205, Meston — anyone who is a member of the Students' Association is welcome to join us, and membership is free! Our weekly meeting could include a talk, discussion, code jam, social, gaming night, trip out to an external event, tutorial or workshop. If you have a great idea for an event then <a href="/contact_us">get in touch with the committee</a> and we'll try to make it happen!</p>
+          <h2>Calendar</h2>
+          <p>Specific event details can change from when they're first listed, so keep checking back here or sign yourself up to our mailing list <a href="http://lists.aucs.org.uk/cgi-bin/mailman/listinfo/aucs-discuss">over here</a>.</p>
+          <br>
+            <div class="panel panel-event">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><span class="glyphicon glyphicon-calendar"></span> <strong>6PM, 18 MAR 2015:</strong> AGM</h3>
+                </div>
+                <div class="panel-body">
+                  <p>An introduction to the inner workings of the Internet, starting at the beginning with the first Ethernet networks at Xerox PARC and finishing with the latest developments in the world of Web. A bit of history, some standards, some examples and live demos. This will be followed by a tour of the Electronics Research Group's datacenter in Fraser Noble building.<br>CIf you've ever wondered the difference between a network router and a network switch, how flows on the Internet carry data reliably and with minimum delay or how the protocol behind the Web work in the real world, come along and find some answers to your questions.</p>
+                </div>
+              <div class="panel-footer panel-footer-event">
+                <p><span class="glyphicon glyphicon-user"></span> FREE, attendance open to any student</p>
+                <p><span class="glyphicon glyphicon-flag"></span> Room 205, Meston Building, University of Aberdeen</p>
+              </div>
+            </div>
+
+	    <div class="panel panel-event">
+		<div class="panel-heading">
+		  <h3 class="panel-title"><span class="glyphicon glyphicon-calendar"></span> <strong>6PM, 18 MAR 2015:</strong> AGM</h3>
+		</div>
+		<div class="panel-body">
+		  <p>This is our Annual General Meeting (AGM), which is where we get together as a society and form a committee for the next academic year. If you want a say in how the society is run next year &mdash; particularly if you're in years 1 to 3 &mdash; you should come along and have your say or consider nomination for a position on the committee. For a reminder of this event, join our <a href="http://lists.aucs.org.uk/cgi-bin/mailman/listinfo/aucs-discuss">mailing list</a> or <a href="https://www.facebook.com/groups/aucssoc/">Facebook group</a>.</p>
+		</div>
+              <div class="panel-footer panel-footer-event">
+                <p><span class="glyphicon glyphicon-user"></span> FREE, attendance open to any student</p>
+                <p><span class="glyphicon glyphicon-flag"></span> Room 205, Meston Building, University of Aberdeen</p>
+              </div>
+	    </div>
+
+            <div class="panel panel-event">
+              <div class="panel-heading">
+                <h3 class="panel-title"><span class="glyphicon glyphicon-calendar"></span> <strong>6PM, 25 FEB 2015:</strong> Raspberry Pi web server workshop hosted by Martin Caminada</h3>
+              </div>
+              <div class="panel-body">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="/images/Raspberry_Pi.jpg" alt="Raspberry Pi motherboard">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <p>At this workshop you'll learn the fundamental concepts of high-level networking relevant to set up a basic web server at home, including TCP/IP, DNS, and NAT. You'll also get instruction on how to get yourself a domain name, link it to a dynamic DNS service and then forward the required port(s) through NAT (the IP address translation that most consumer IPv4 routers use). You can bring your own Raspberry Pi, but we'll provide some Pi's and equipment so you can have a go at some of the concepts yourself. <strong>Please bring along your laptop if you have one.</strong></p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer panel-footer-event">
+                <p><span class="glyphicon glyphicon-user"></span> FREE, attendance open to any student but <a href="https://www.facebook.com/events/874066059282573/">please RSVP</a></p>
+                <p><span class="glyphicon glyphicon-flag"></span> Room 205, Meston Building, University of Aberdeen</p>              
+              </div>
+            </div>   
+        </div>
+        <div class="module-column col-md-4">
+          <?php include('module_next_event.php') ?>
+          <?php include('module_twitter.php'); ?>
+        </div>
+      </div>
+    </div>
+    <?php include('footer.php'); ?>
+  </body>
+</html>
